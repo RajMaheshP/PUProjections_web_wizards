@@ -1,0 +1,367 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styles to body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Style navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+/* Style sections */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style hero section */
+#hero {
+    background-image: url('background.jpg'); /* Replace 'background-image.jpg' with the actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+#hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+#hero h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.btn-group {
+    margin-top: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Style buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* About Us Section */
+#about {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+.about-content {
+    text-align: center;
+}
+.about-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.about-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.team-member {
+    text-align: center;
+    margin: 0 20px;
+}
+.team-member img {
+    width: 190px;
+    height: 270px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.team-member h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.team-member p {
+    font-size: 1.2em;
+    color: #888;
+}
+
+
+/* Our Work Section */
+#work {
+    background-color: #fff;
+    padding: 100px 0;
+}
+.work-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.work-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.work-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.work-item h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.work-item p {
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-item {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+.testimonial-item p {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+}
+.client-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.client-details h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.client-details p {
+    margin: 0;
+    color: #888;
+}
+
+/* FAQ Section */
+#faq {
+    background-color: #fff;
+    padding: 100px 0;
+}
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-item {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.faq-item h3 {
+    margin-bottom: 10px;
+}
+.faq-item p {
+    margin-bottom: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover i {
+    color: #007bff;
+    transform: scale(1.1);
+  }
+
+
+  /* CSS for FAQ Section */
+#faq {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.faq-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 30px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* CSS for Appointment Form */
+.appointment-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
